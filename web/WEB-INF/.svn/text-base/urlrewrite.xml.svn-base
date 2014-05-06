@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : urlrewrite.xml
+    Created on : December 8, 2011, 5:18 PM
+    Author     : noname
+    Description:
+        Purpose of the document follows.
+-->
+<urlrewrite>
+    <rule>
+        <from>^/-/login$</from>
+        <to>/login</to>
+    </rule>
+    <rule>
+        <from>^/(.*)$</from>
+        <to>/-/$1</to>
+    </rule>
+</urlrewrite>
+

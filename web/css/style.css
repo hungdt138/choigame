@@ -1,0 +1,740 @@
+
+#menu_arrow{
+    background-image:url("../images/inf/common/muiTen.jpg");
+    height:23px;
+    width:31px;
+    float:right;
+}
+
+body {
+    margin:0 auto;
+    padding: 0;
+    font-size: 11px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+form  {
+    margin: 0px 1px 1px 0px;
+}
+
+
+.welcome {
+    background-color: #CCC;
+    border-bottom: 1px solid #999999;
+    color: #368B36;
+    line-height: 20px;
+    clear: both;
+}
+
+a.viewAll {
+    color: maroon;
+    text-decoration: none;
+}
+
+a.menuLink:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.menuLink:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.gameDetails:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.gameDetails {
+    color: #368B36;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a.tab {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: green;
+}
+
+.outer_wrapper {
+    width: auto;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    background-color: #368B36;	
+    background-image: url("../images/inf/common/logo.png");
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    height: 46px;
+    background: #30742B;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    clear:both;
+}
+.hr{
+    border-width: 1px;
+    border-color: #fff;
+
+}
+
+.combo {
+    padding: 2px 0px 2px 0px;    
+}
+
+.combo .left {
+    width: 83%;
+    padding:2px;
+    float:left;
+}
+
+.combo .left .cboCat {
+    width: 100%;
+}
+
+.combo .right {
+    width: 15%;
+    padding-right: 2px;
+    float:left;
+}
+
+.combo .right .btnXem {
+    width: 100%;
+    height: 22px;
+    background-color: #3E9336;
+    border: #006634 solid 1px;
+    color: white;
+}
+
+.logo {
+    height: auto;	
+    float:left;
+    padding-left:3px;
+}
+
+.menu_arrow {
+    float:right;
+    width: 61px;
+    background-image:url("../images/inf/common/muiTen.jpg");
+}
+
+.tab {
+    display: block;
+    width:100%;
+    height: 23px;
+    background-color: #E9E9E9;
+}
+
+.tab .selected {
+    height: 100%;
+    width: auto;    
+    float:left;
+}
+
+.tab .selected a, .tab .selected a:hover {
+    color:white;
+    font-weight: normal;
+}
+.tab .selected .left{
+    width: auto;
+    height: 100%;
+    float:left;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 4px;
+    background-image:url("../images/inf/common/bgMenu.jpg");
+    background-repeat: repeat-x;
+}
+
+.tab .selected .right {
+    height: 100%;
+    width: 29px;
+    float:left;
+    background-image: url("../images/inf/common/muiTen.png");
+}
+
+.tab .unselected {
+    color:#006600;
+    float:left;
+    padding: 5px 2px 0px 2px;
+}
+
+.tab .unselected a:hover {
+    font-weight: normal;
+}
+
+.split {
+    clear: both;
+    width: 100%;    
+    font-weight: bold;
+    text-align: center;
+    color: #006634;
+}
+.split a {
+    background-color: white;
+    color: #006634;
+    height: auto;
+    padding: 2px 6px;
+    text-align: center;
+    width: auto;
+}
+div.split a.item{
+    color: white;
+    background-color: #006634;
+}
+
+.pkgButton {
+    width: 100%;
+    margin: 5px auto;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.pkgButton .btn {
+    float:left;
+    padding: 3px 15px 0px 15px;
+    margin-left: 10px;
+    text-align: center;
+    width: auto;
+    height: 15px;
+    background-image: url("../images/inf/common/bgMenu.jpg");
+    background-repeat: repeat-x;
+    color: white;
+}
+
+.intro {
+    padding-top: 15px;
+    font-weight: bold;    
+    text-decoration: underline;
+    clear: both;
+}
+
+/*hungdt: .....................................*/
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    padding: 5px 0;
+    margin: 0 15px;
+}
+
+ul, ol
+{
+    list-style: none;
+}
+
+img.banner
+{
+    border: 0;
+    height: 46px;
+}
+
+a{
+    text-decoration: none;
+    color: #368B36
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    height: 23px;
+    width: 100%;
+    border-bottom: 1px solid #CEE318;
+    border-top: 1px solid #E0EB73;
+    background: #368B36 url("../images/inf/common/bgMenu.jpg") repeat-x;
+
+
+}
+
+
+.menu .test {
+    background-image: url("../images/inf/common/muiTen.jpg");
+    height:23px;
+    width:31px;
+    float:right;
+}
+
+.menu a, .menu a:visited  {
+    line-height: 23px;
+    color:white;
+}
+
+/* -----------------------------------------*/
+#header, #menu_top, #myaccount_info, #menu_bottom, #menu_tabs, #main_content, #footer {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    color:red;
+}
+#device_info
+{
+    height: 20px;
+    color:#368B36;
+    padding-top: 3px;
+    padding-left: 5px;
+    background-color: #DADADA;
+    border-top: #F7F7F7 1px solid;
+    border-bottom: #999999 1px solid;
+}
+
+#header {
+    width: 100%;
+    height: 46px;
+    background-color: #368B36;
+}
+#header .bg_vertical_line {
+    height: 105px;
+}
+
+#header #top_logo {
+    height: 105px;
+    margin-top: 23px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+}
+#header #menu_top {
+    height: 105px;
+}
+
+#header #menu_top_for_test {
+    height: 100px;
+}
+
+/* Menu */
+#menu_top a, #menu_top a:visited, #menu_top a:active{
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu_top a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#menu_navigator_box {
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    border-bottom: 1px solid #CEE318;
+    border-top: 1px solid #E0EB73;
+    background-image:url("../images/inf/common/bgMenu.jpg");
+    background-repeat: repeat-x;
+}
+
+#menu_navigator_box a, #menu_navigator_box a:link, #menu_navigator_box a:visited {
+    color: #fff;
+}
+
+#search_game {
+    height: 20px;
+    margin: 1px 2px 3px 2px;
+    padding-bottom: 5px;
+}
+.btn_search {
+    height: 20px;
+    background-color: #3E9336;
+    border: #006634 solid 1px;
+    color: white;
+    
+    
+}
+
+.textbox
+{
+    border: #006634 solid 1px;
+    width: 70%;
+     height: 16px;
+}
+
+.gameCandidate
+{ 
+    margin-top: 1%;
+    margin-left: 2px;
+    line-height: 150%;
+}
+
+.gameCandidate .icon2 
+{
+    line-height: 1.3em;
+}
+
+.gamedetail p {
+    line-height: 150%;
+}
+.img_game {
+    padding: 1px; 
+    border: solid 0.5px #CCC;
+}
+
+.game_title{
+    line-height: 1.5em;
+}
+.game_title1{
+    line-height: 1.5em;
+    text-decoration: underline;
+}
+.game_title .icon1 {
+    line-height: 1.3em;
+}
+
+.game_title a, .game_title a:visited, .game_title a:link{
+    font-weight: bold;
+}
+
+.game_desc, .game_title, .total_download, .star_rate{
+    line-height: 1.3em;
+}
+.game_title_type_2 a, .game_title_type_2 a:visited, .game_title_type_2 a:link{
+    font-weight: normal;
+    color: #368B36;
+    text-decoration: none;
+}
+
+.game_download_type_1 a, .game_download_type_1 a:visited, .game_download_type_1 a:link{
+    font-weight: bold;
+    color: #368B36;
+    text-decoration: underline;
+}
+.linkdetail a
+{
+    font-weight: bold;
+    color: #368B36;
+    text-decoration: none;
+
+}
+.gameOther{
+    padding: 1px;
+}
+.gameOther .title {
+
+    border-bottom: 1px solid ;
+    font-weight: bold;
+}
+.listOther { width: 100%; float: left; margin: 0; padding: 0;}
+
+.gameOther a, .gameOther a:hover, .gameOther a:visited,.gameOther a:link{
+    line-height: 150%;
+}
+.lnkOther {
+    color: #368B36;
+}
+.menu_bottom_bullet { margin: 13px 0 3px 5px;}
+.cont{
+    margin: 5px 0 3px 5px;
+}
+.confirm {
+    /*font-weight: bold;*/
+    padding: 13px 0 3px 5px;
+}
+.buttonconfirm{
+
+    background-color: #3E9336;
+    border: #006634 solid 1px;
+    color: white;
+    /* font-weight: bold;*/
+}
+.back {
+    padding-left:10px;
+}
+.gameitem {
+
+    width: 100%;
+    clear: both;
+    margin: 5px -3px;
+    border-bottom: solid 1px #dbdbdb;
+}
+.checksupport{
+    color: red;
+    font-style: italic;
+    font-size: 9px;
+}
+.img_gameitem {
+    float:left;
+    text-align: center;
+    width: 66px;
+    height: 50px;
+
+
+    /*float: left;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-right: 5px;
+        margin-top: 2px;
+        width: 50px;*/
+}
+.img_muiten3{
+
+    width: 6px;
+    height: 6px;
+    text-align: right;
+}
+
+#footer{ 
+    width: 100%;
+    height: 46px;
+    background: #30742B;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    clear:both;
+}
+
+div.bannerbox a img{
+    text-decoration: none;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+div.bannerbox{
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+div.bannerbox a{
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Groupon Game
+   Author: hungdt
+*/
+
+.deal_feature{ 
+
+    /*    background-attachment: scroll;
+    
+        background-clip: padding-box !important;
+    
+        background-color: transparent;
+    
+        background-origin: padding-box;
+    
+        background-position: 0 0;
+    
+        background-repeat: repeat;*/
+
+
+    border: 1px solid #368B36;
+
+    /*    border-radius: 7px 7px 7px 7px;
+    
+        -moz-border-radius: 7px 7px 7px 7px;
+    
+        -webkit-border-radius: 7px 7px 7px 7px;
+    
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+        -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) ;
+    
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) ;*/
+
+    color: black;
+
+    float: left;
+
+    line-height: 1em;
+
+    margin-left: 3px;
+
+    padding-left:  10px;
+
+    padding-bottom: 10px;
+
+    text-decoration: none;
+
+    width: 100%;
+
+    background:#fff;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+.img_feature{
+
+    float:left; margin: 8px 0 8px 4px;-moz-border-radius: 5px;
+
+    height: 96px;
+    border-radius: 5px;
+
+    -moz-box-shadow: 5px 5px 5px black;
+
+    -webkit-box-shadow: 5px 5px 5px black;
+
+    box-shadow: 2px 2px 2px black; width:110px; height:95px; 
+
+}
+
+.title_feature{margin-left:5px; color:#036b94; font-weight:bold; font-size:13px; margin-top:5px; line-height:1.5em; }
+
+.title_feature a:hover{ color:#FA6D18; text-decoration:none;}
+
+.title_feature a{ color:#036b94;}
+
+.desc_feature {  margin-left:10px;  font-weight:normal;  margin-top:10px; font-size:13px; line-height:140%;}
+
+.price_feature{float:left; margin-left:5px; margin-top:15px;  }
+
+.price_feature span.hot_price{ color:#c22227;font-weight:bold;font-size:20px;padding-left: 10px;}
+
+.buynowbtn {background:url(../images/other/buy_btn.png) no-repeat 0 0;width: 190px;height: 39px;float:left;display:block;padding:5px 0 0 0px;margin-left: 5px;}
+.buynowbtn:hover {background:url(../images/other/buy_btn.png) no-repeat 0 -88px;}
+.buynowbtn_small {background:url(../images/other/button_game.png) no-repeat 0 0;width: 80px;height: 17px;float:left;display:block;padding:5px 0 0 0px;margin-left: 5px;}
+.buynowbtn_small:hover {background:url(../images/other/button_game.png) no-repeat 0 -42px;}
+
+.bland {
+    margin-top: 3px;
+    background-color: #fff;
+/*    border: 1px solid #ccc;*/
+    padding: 5px;
+}
+
+
+.descriptiongame {
+    margin-top: 3px;
+     background-color: #fff;
+/*    border: 1px solid #ccc;*/
+    padding: 5px;
+}
+
+
+ul#tabnav { /* general settings */
+    text-align: left; /* set to left, right or center */
+    margin: 1em 0 1em 0; /* set margins as desired */
+    font-size: 12px;
+  border-bottom: 1px solid #DDDDDD;  /*  set border COLOR as desired */
+    list-style-type: none;
+    padding: 3px 10px 3px 3px; /* THIRD number must change with respect to padding-top (X) below */
+}
+
+ul#tabnav li { /* do not change */
+    display: inline;
+}
+
+body#tab1 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+    border-bottom: 1px solid #fff; /* set border color to page background color */
+    background-color: #fff; /* set background color to match above border color */
+    font-weight: bold;
+}
+
+/*body#tab1 li.tab1 a,  body#tab3 li.tab5 a, body#tab4 li.tab4 a {  settings for selected tab link 
+    background-color: #D8D8D8;  set selected tab background color as desired 
+    color: rgb(90, 91, 90);;  set selected tab link color as desired 
+    position: relative;
+    top: 1px;
+    padding-top: 4px;  must change with respect to padding (X) above and below 
+
+
+}*/
+
+body#tab2 li.tab2 a{
+  background-color: #fff; /* set selected tab background color as desired */
+/*    color: rgb(90, 91, 90);;  set selected tab link color as desired */
+    position: relative;
+    top: 1px;
+    padding-top: 8px; /* must change with respect to padding (X) above and below */
+    font-weight: bold;
+    color: red;
+    border-left:  1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}
+body#tab3 li.tab3 a{
+   background-color: #fff; /* set selected tab background color as desired */
+/*    color: rgb(90, 91, 90);;  set selected tab link color as desired */
+    position: relative;
+    top: 1px;
+    padding-top: 8px; /* must change with respect to padding (X) above and below */
+    font-weight: bold;
+    color: red;
+    border-left:  1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}
+body#tab1 li.tab1 a{
+    background-color: #fff; /* set selected tab background color as desired */
+/*    color: rgb(90, 91, 90);;  set selected tab link color as desired */
+    position: relative;
+    top: 1px;
+    padding-top: 8px; /* must change with respect to padding (X) above and below */
+    font-weight: bold;
+    color: red;
+    border-left:  1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+        
+}
+
+ul#tabnav li a { /* settings for all tab links */
+    padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+    /*border: 1px solid #F0A925;*/ /* set border COLOR as desired; usually matches border color specified in #tabnav */
+    background-color: #D8D8D8; /* set unselected tab background color as desired */
+    color: #666; /* set unselected tab link color as desired */
+    margin-right: 0px; /* set additional spacing between tabs as desired */
+    text-decoration: none;
+    border-bottom: none;
+}
+
+ul#tabnav a:hover { /* settings for hover effect */
+    background: #fff; /* set desired hover color */
+    
+    border-left:  1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+
+.split2 {
+    clear: both;
+    width: 100%;    
+    font-weight: bold;
+    text-align: center;
+    color: #006600;
+}
+.split2 a {
+    background-color: white;
+    color: #000;
+    height: auto;
+    padding: 2px 2px;
+    text-align: center;
+    width: auto;
+
+}
+div.split2 a.item{
+    color: #30742B;
+    text-decoration: underline;
+
+}
